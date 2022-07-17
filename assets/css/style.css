@@ -1,0 +1,160 @@
+/* header design */
+.header h1{
+    background-color: grey;
+    font-size: 50px;
+    color: white;
+    max-width: 300px;
+    border-radius: 10px;
+    margin:70px 0px 0px 30px;
+    padding: 20px 0px 20px 90px;
+}
+
+.header nav li{
+    display: inline;
+    font-size: 30px;
+    background-color: grey;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    
+    
+}
+
+.header nav ul{
+    list-style-type: none;
+    text-align: right;
+    margin: 20px;
+    /* sets the nav about me, my projects and contact info higher */
+    padding: 20px;
+}
+
+.header nav ul a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.header{
+    background-color: aqua;
+    padding-top: 3px;
+    border-radius: 10px;
+    
+}
+
+/* About me and photo */
+
+#photo{
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 10px;
+   
+}
+
+
+article{
+    display: flex;
+}
+
+#about-me{
+    float: right;
+    background-color: rgb(159, 123, 243);
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#about-me h2{
+    margin-left: 20px;
+}
+
+
+#about-me h2 + p{
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+
+#my-projects{
+    padding: 60px;
+    margin: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    
+}
+
+
+/* body and projects */
+
+.project-layout{
+    display: inline-flex;
+    background-color: aqua;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+
+main section{
+    margin: 10px;
+}
+
+main section a{
+    text-decoration: none;
+    color: white;
+}
+
+/* project styling and sizing */
+.project{
+    background-color: grey;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+.project img{
+    border-radius: 25px;
+    margin: 0px 20px 20px 20px;
+    min-height: 200px;
+    max-width: 200px;
+}
+
+
+/* tic-tac-toe sizing */
+#tic-tac-toe{
+    background-color: grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+#tic-tac-toe img{
+    min-height: 350px;
+    min-width: 350px;
+    border-radius: 10px;
+}
+
+
+
+/* Contact Info */
+
+footer{
+    background-color: rgb(159, 123, 243);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media all and (min-width: 1000px){
+.project-layout{
+    padding-right: 500px;
+}
+} 
+
+/* screen adjustment for smaller screen sizes */
+@media all and (max-width: 800px) and (max-height: 1000px){
+    .header{
+
+    }
+}
+
