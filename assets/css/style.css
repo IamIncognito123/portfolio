@@ -74,11 +74,10 @@ article{
 
 
 #my-projects{
-    padding: 60px;
+    padding: 30px;
     margin: 5px;
     background-color: aqua;
     border-radius: 10px;
-    
 }
 
 
@@ -151,10 +150,49 @@ footer{
 }
 } 
 
+
+
 /* screen adjustment for smaller screen sizes */
 @media all and (max-width: 800px) and (max-height: 1000px){
-    .header{
-
+    .header h1{
+        font-size: 35px;
+        margin: 50px 0px 0px 30px;
+        padding: 20px 0px 20px 40px;
     }
-}
 
+    .header nav li{
+        font-size: 15px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    article{
+        font-size: 85%;
+    }
+
+    #my-projects{
+        font-size: 99%;
+    }
+
+    main{
+        font-size: 85%;
+    }
+
+    .project img{
+            margin: 0px 20px 20px 20px;
+            min-height: 150px;
+            max-width: 150px;
+    
+    }
+
+    #tic-tac-toe img{
+        min-height: 250px;
+        min-width: 250px;
+    }
+
+    footer{
+        font-size: 85%;
+    }
+
+}
