@@ -89,7 +89,7 @@ article{
     border-radius: 10px;
     flex-wrap: wrap;
     align-items: center;
-    
+    width: 100%;
 }
 
 
@@ -143,13 +143,6 @@ footer{
     text-align: center;
     margin-top: 20px;
 }
-
-@media all and (min-width: 1000px){
-.project-layout{
-    padding-right: 500px;
-}
-} 
-
 
 
 /* screen adjustment for smaller screen sizes */
