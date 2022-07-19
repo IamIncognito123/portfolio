@@ -10,9 +10,6 @@ I utilize a variety of tools and advanced knowledge in css to construct the page
 
 There are no installations required.
 
-## Screenshot
-Capture.PNG
-
 ## Link
 
 https://iamincognito123.github.io/portfolio/
